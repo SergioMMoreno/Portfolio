@@ -25,6 +25,6 @@ Pequeño proyecto de pagina web, donde en cada pagina voy aplicando lo aprendido
 ## Autor
 
 - LinkedIn - [Sergio Manuel Moreno](https://www.linkedin.com/in/sergiomanuelmoreno0/)
-- Behance - [@SoySergio](https://www.behance.net/sergiommoreno)
-- Twitter - [@SoySergio](https://dribbble.com/SergioMoreno18)
+- Behance - [Diseño UX](https://www.behance.net/sergiommoreno)
+- Dribbble - [Diseños UI](https://dribbble.com/SergioMoreno18)
 - Twitter - [@SoySergio](https://twitter.com/SoyNeroo)
