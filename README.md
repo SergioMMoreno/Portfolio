@@ -1,6 +1,6 @@
 # Pagina de portfolio
 
-Pequeño proyecto de pagina web, donde en cada pagina voy aplicando lo aprendido, todavia falta arreglar el codigo y hacerlo mas reutilisable, tengo pensado aplicar Sass y el uso de React
+Página web con proposito de portfolio, donde muestro mis trabajos, en especial el ux / ui y un poco de mis conocimientos en el maquetado y desarrollador orientado al front end
 
 
 ## Construido con 🛠️
@@ -12,8 +12,8 @@ Pequeño proyecto de pagina web, donde en cada pagina voy aplicando lo aprendido
 
 ### Enlaces
 
-- Codigo URL: [Github]()
-- Sitio en la web URL: [Netlify]()
+- Codigo URL: [Github](https://github.com/SergioMMoreno/Portfolio)
+- Sitio en la web URL: [Netlify](https://sergiomoreno-portfolio.netlify.app/)
 
 ### Recursos útiles
 

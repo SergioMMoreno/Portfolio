@@ -58,17 +58,17 @@ justify-content: space-between;
     border: 1px solid var(--text-black-700);
 }
 .style-switcher .color-1{
-    background: red;
+    background: #F66B0E;
 }
 .style-switcher .color-2{
-    background: rgb(255, 0, 212);
+    background: #205375;
 }
 .style-switcher .color-3{
-    background: rgb(0, 221, 255);
+    background: #712B75;
 }
 .style-switcher .color-4{
-    background: rgb(38, 255, 0);
+    background: #417D7A;
 }
 .style-switcher .color-5{
-    background: rgb(200, 255, 0);
+    background: #CDBE78;
 }

@@ -1,6 +1,7 @@
 /* ==== Imports ==== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 :root{
     --bg-black-900: #F4F4F2;
@@ -31,6 +32,10 @@ body{
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
+}
+
+hr{
+    color: var(--bg-black-900);
 }
 
 ::before, ::after{
@@ -129,6 +134,7 @@ ul{
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    margin: 32px 0;
 }
 .btn{
     font-size: 18px;
@@ -175,17 +181,18 @@ ul{
     padding-left: 14px;
     padding-right: 14px;
 }
-.aside .logo .a{
+.aside .logo a{
     color: var(--text-black-900);
     font-weight: 700;
     padding: 14px;
     font-size: 30;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     position: relative;
+    font-family: 'Pacifico', cursive;
 }
-.aside .logo .a span{
-    font-family: 'Clicker Script', cursive;
+.aside .logo a span{
     font-size: 300;
+    color: var(--skin-color);
 }
 .aside .logo a::before{
     content: '';
@@ -317,11 +324,17 @@ h3.my-profession{
     font-size: 20px;
     color: var(--text-black-700);
 }
+.home-info p q{
+    font-size: 18px;
+    font-style: italic;
+    color: var(--text-black-900);
+}
 .home .home-img{
     flex: 0 0 40%;
     max-width: 40%;
     text-align: center;
     position: relative;
+    display: flex;
 }
 .home-img::after{
     content: '';
@@ -360,15 +373,15 @@ h3.my-profession{
     max-width: 100%;
 }
 .about .about-content .about-text h3{
-    font-size: 28px;
-    margin-bottom: 4px;
+    font-size: 32px;
+    margin-bottom: 16px;
     font-weight: 700;
     color: var(--text-black-900);
 }
 .about .about-content .about-text h4{
-    font-size: 18px;
-    margin-bottom: 14px;
-    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 18px;
+    font-weight: 500;
     color: var(--text-black-900);
 }
 .about .about-content .about-text h3 span{
@@ -377,7 +390,7 @@ h3.my-profession{
 .about .about-content .about-text p{
     font-size: 16px;
     line-height: 24px;
-    color: var(--text-black-900);
+    color: var(--text-black-700);
 }
 .about .about-content .personal-info{
     flex: 0 0 60%;
@@ -522,21 +535,21 @@ h3.my-profession{
     font-weight: 400;
     font-size: 14px;
     margin-bottom: 12px;
-    color: var(--text-black-900);
+    color: var(--text-black-700);
 }
 .about .about-content .timeline .timeline-date .fa{
     margin-right: 4px;
 }
 .about .about-content .timeline .timeline-title{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 24px;
     text-transform: capitalize;
     color: var(--text-black-900);
 }
 .about .about-content .timeline .timeline-subtitle{
     font-size: 16px;
     margin-bottom: 14px;
-    color: var(--text-black-700);
+    color: var(--text-black-900);
 }
 .about .about-content .timeline .timeline-text{
     line-height: 24px;
@@ -637,12 +650,13 @@ h3.my-profession{
 }
 .portfolio .portfolio-item-inner .portfolio-img .text-img{
     position: absolute;
+    display: flex;
     top: 0;
     width: 100%;
     height: 100%;
     text-align: center;
-    background: rgba(77, 77, 83, 0.679);
-    margin-top: 40%;
+    align-items:center;
+    background: var(--text-black-900);
     transition: all 500ms ease-out;
     opacity: 0;
     visibility: hidden;
@@ -656,11 +670,12 @@ h3.my-profession{
     letter-spacing: 2px;
     color: var(--skin-color);
     font-weight: 900;
-    font-size: 24px;
+    font-size: 32px;
 }
 .portfolio .portfolio-item-inner .portfolio-img .text-img p{
-    color: var(--text-black-900);
-    font-size: 14px;
+    color: var(--bg-black-900);
+    font-size: 16px;
+    margin: 16px 32px;
 }
 
 /* ==== Contact ==== */
@@ -689,27 +704,48 @@ h3.my-profession{
     display: inline-block;
 }
 .contact .contact-info-item .icon .fa{
-    font-size: 24px;
+    font-size: 32px;
     color: var(--skin-color);
 }
 .contact .contact-info-item h4{
     font-size: 18px;
     font-weight: 700;
-    color: var(--text-black-900);
+    color: var(--text-black-700);
     text-transform: capitalize;
     margin: 15px 0 5px;
 }
 .contact .contact-info-item p{
-    font-size: 16px;
+    font-size: 32px;
     line-height: 25px;
     color: var(--text-black-900);
     font-weight: 400;
+    margin-top: 24px;
+}
+.contact-underlined {
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+.contact-underlined::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 2px;
+    background-color: var(--skin-color);
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+.contact-underlined:hover {
+    color: var(--skin-color);
+}
+.contact-underlined:hover::before {
+    transform: scaleX(1);
 }
 .contact .contact-info-item p a{
-    font-size: 16px;
+    font-size: 32px;
     line-height: 25px;
     color: var(--text-black-900);
-    font-weight: 400;
+    font-weight: 700;
 }
 .contact .contact-form{
     flex: 0 0 100%;
