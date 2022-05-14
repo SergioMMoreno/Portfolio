@@ -479,29 +479,29 @@
                     <h4 class="contact-sub-title padd-14">¡No dudes en contactarme!</h4>
                     <!-- ==== Contact form Inicio ==== -->
                     <div class="row">
-                        <form class="contact-form padd-14" action="https://formsubmit.co/sergiomanuelmoreno018@gmail.com" method="POST">
+                        <form class="contact-form padd-14" name="form-contact" netlify>
                             <div class="row">
                                 <div class="form-item col-6">
                                     <div class="form-group padd-14">
-                                        <input type="text" class="form-control" placeholder="Nombre">
+                                        <input type="text" name="name" class="form-control" placeholder="Nombre" required>
                                     </div>
                                 </div>
                                 <div class="form-item col-6">
                                     <div class="form-group padd-14">
-                                        <input type="email" class="form-control" placeholder="Correo">
+                                        <input type="email" name="email" class="form-control" placeholder="Correo" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-item col-12">
                                     <div class="form-group padd-14">
-                                        <input type="text" class="form-control" placeholder="Asunto">
+                                        <input type="text" name="affair" class="form-control" placeholder="Asunto">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-item col-12 padd-14">
                                 <div class="form-group">
-                                    <textarea name="" class="form-control" id="" placeholder="Mensaje"></textarea>
+                                    <textarea name="message" class="form-control" id="" placeholder="Mensaje" required></textarea>
                                 </div>
                             </div>
                             <div class="form-item col-12 padd-14">
